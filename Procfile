@@ -1,2 +1,2 @@
 web: gunicorn pe_ovacenter.wsgi --log-file -
-heroku config:set DISABLE_COLLECTSTATIC=1
+heroku config:set DEBUG_COLLECTSTATIC=1
